@@ -17,7 +17,7 @@ const Home = () => {
         </h1>
       </div>
       <div>
-        <div className="flex justify-between mb-3 mx-20 mt-5">
+        <div className="flex justify-between gap-10 lg:gap-0 mb-3 mx-20 mt-5">
           <h1 className="font-bold text-xl">Overview</h1>
           <h1 className="flex items-center text-gray-400">
             Last Week
@@ -26,28 +26,28 @@ const Home = () => {
         </div>
         <div className="flex justify-center">
           <div className="grid grid-cols-2 gap-2 items-center justify-center">
-            <div className="w-96 bg-white shadow-xl rounded-md">
+            <div className="w-32 h-36 lg:w-96 bg-white shadow-xl rounded-md">
               <div className="card-body text-black">
                 <p className="font-bold text-gray-400  text-xl">Orders</p>
-                <p className="text-3xl">33</p>
+                <p className="text-xl lg:text-3xl">33</p>
               </div>
             </div>
-            <div className="w-96 bg-white shadow-xl rounded-md">
+            <div className="w-32 h-36 lg:w-96 bg-white shadow-xl rounded-md">
               <div className="card-body text-black">
                 <p className="font-bold text-xl text-gray-400">Total Sales</p>
-                <p className="text-3xl">$7100</p>
+                <p className="text-xl lg:text-3xl">$7100</p>
               </div>
             </div>
-            <div className="w-96 bg-white shadow-xl rounded-md">
+            <div className="w-32 h-36 lg:w-96 bg-white shadow-xl rounded-md">
               <div className="card-body text-black">
                 <p className="font-bold text-xl text-gray-400">Store views</p>
-                <p className="text-3xl">301</p>
+                <p className="text-xl lg:text-3xl">301</p>
               </div>
             </div>
-            <div className="w-96 bg-white shadow-xl rounded-md">
+            <div className="w-32 h-36 lg:w-96 bg-white shadow-xl rounded-md">
               <div className="card-body text-black">
                 <p className="font-bold text-xl text-gray-400">Product views</p>
-                <p className="text-3xl">19,121</p>
+                <p className="text-xl lg:text-3xl">19,121</p>
               </div>
             </div>
           </div>
@@ -61,13 +61,13 @@ const Home = () => {
         </h1>
       </div>
       <div className="flex justify-center text-white gap-2 mt-4">
-        <div className="border rounded-2xl text-center bg-blue-700 px-3 py-1 font-semibold">
+        <div className="border rounded-2xl text-center bg-blue-700 px-1 lg:px-3 py-1 font-semibold">
           Pending(52)
         </div>
-        <div className="border rounded-2xl text-center bg-gray-300 text-gray-500 px-3 py-1 font-semibold">
+        <div className="border rounded-2xl text-center bg-gray-300 text-gray-500 px-1 lg:px-3 py-1 font-semibold">
           Accepted(72)
         </div>
-        <div className="border rounded-2xl text-center bg-gray-300 text-gray-500 px-3 py-1 font-semibold">
+        <div className="border rounded-2xl text-center bg-gray-300 text-gray-500 px-1 lg:px-3 py-1 font-semibold">
           Shipped(32)
         </div>
       </div>

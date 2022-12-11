@@ -20,13 +20,13 @@ const Orders = () => {
         </div>
       </div>
       <div className="flex justify-center text-white gap-2 mt-4">
-        <div className="border rounded-2xl text-center bg-blue-700 px-3 py-1 font-semibold">
+        <div className="border rounded-2xl text-center bg-blue-700 px-1 lg:px-3 py-1 font-semibold">
           All Time(22)
         </div>
-        <div className="border rounded-2xl text-center bg-gray-300 text-gray-500 px-3 py-1 font-semibold">
+        <div className="border rounded-2xl text-center bg-gray-300 text-gray-500 px-1 lg:px-3 py-1 font-semibold">
           Today(22)
         </div>
-        <div className="border rounded-2xl text-center bg-gray-300 text-gray-500 px-3 py-1 font-semibold">
+        <div className="border rounded-2xl text-center bg-gray-300 text-gray-500 px-1 lg:px-3 py-1 font-semibold">
           Yesterday(22)
         </div>
       </div>

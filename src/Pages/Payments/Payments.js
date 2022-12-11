@@ -42,14 +42,14 @@ const Payments = () => {
             <div className="flex gap-2 items-center justify-center">
               <div className="w-96 bg-orange-600 shadow-xl rounded-md">
                 <div className="card-body text-white">
-                  <p className="font-bold text-xl">Amount On Hold</p>
-                  <p className="text-3xl">$701</p>
+                  <p className="font-bold lg:text-xl">Amount On Hold</p>
+                  <p className="lg:text-3xl">$701</p>
                 </div>
               </div>
               <div className="w-96 bg-green-600 shadow-xl rounded-md">
                 <div className="card-body text-white">
-                  <p className="font-bold text-xl">Amount Recieved</p>
-                  <p className="text-3xl">$7000</p>
+                  <p className="font-bold lg:text-xl">Amount to Recieve</p>
+                  <p className="lg:text-3xl">$7000</p>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ const Payments = () => {
           Refunds(1)
         </div>
       </div>
-      <div className="p-20">
+      <div className="pb-20">
         {[1, 2].map((id) => (
           <div
             key={id}
@@ -83,7 +83,7 @@ const Payments = () => {
                     className="object-cover object-center rounded-md h-20 w-20"
                   />
                   <div className="space-y-2">
-                    <h1 className="font-semibold">Order #00000</h1>
+                    <h1 className="font-semibold ">Order #00000</h1>
                     <h1 className="text-gray-500">30/12/22, 09.40 PM</h1>
                   </div>
                 </div>

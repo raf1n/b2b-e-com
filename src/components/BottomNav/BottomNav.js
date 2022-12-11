@@ -40,13 +40,13 @@ const BottomNav = () => {
           <span className="btm-nav-label">Products</span>
         </Link>
       </button>
-      <button>
+      <button className="hidden">
         <Link to="/customers">
           <FiUsers className="w-16"></FiUsers>
           <span className="btm-nav-label">Customers</span>
         </Link>
       </button>
-      <button>
+      <button className="hidden">
         <Link to="/payments">
           <MdOutlinePayment className="w-16"></MdOutlinePayment>
           <span className="btm-nav-label">Payments</span>

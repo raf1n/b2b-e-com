@@ -1,6 +1,6 @@
 # live link
 
-https://e-com-0.netlify.app/
+https://e-com-0.web.app/
 
 # routes
 

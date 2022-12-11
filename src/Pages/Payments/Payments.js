@@ -68,7 +68,7 @@ const Payments = () => {
           Refunds(1)
         </div>
       </div>
-      <div>
+      <div className="p-20">
         {[1, 2].map((id) => (
           <div
             key={id}

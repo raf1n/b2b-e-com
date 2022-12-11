@@ -1,5 +1,7 @@
 import React from "react";
 import { FaGripHorizontal } from "react-icons/fa";
+import { FiUsers } from "react-icons/fi";
+import { MdOutlinePayment } from "react-icons/md";
 import { BsStack } from "react-icons/bs";
 import { AiOutlineUser, AiOutlineDropbox } from "react-icons/ai";
 import { Link } from "react-router-dom";
@@ -39,8 +41,16 @@ const BottomNav = () => {
         </Link>
       </button>
       <button>
-        <BsStack className="w-12"></BsStack>
-        <span className="btm-nav-label">Manage</span>
+        <Link to="/customers">
+          <FiUsers className="w-16"></FiUsers>
+          <span className="btm-nav-label">Customers</span>
+        </Link>
+      </button>
+      <button>
+        <Link to="/payments">
+          <MdOutlinePayment className="w-16"></MdOutlinePayment>
+          <span className="btm-nav-label">Payments</span>
+        </Link>
       </button>
 
       <button>

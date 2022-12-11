@@ -18,7 +18,7 @@ const Customers = () => {
           />
         </div>
       </div>
-      <div className="pb-6">
+      <div className="pb-20">
         {[1, 2, 3, 4, 5].map((customer, id) => (
           <div
             key={id}

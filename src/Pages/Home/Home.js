@@ -28,25 +28,25 @@ const Home = () => {
           <div className="grid grid-cols-2 gap-2 items-center justify-center">
             <div className="w-96 bg-white shadow-xl rounded-md">
               <div className="card-body text-black">
-                <p className="font-bold text-xl">Orders</p>
+                <p className="font-bold text-gray-400  text-xl">Orders</p>
                 <p className="text-3xl">33</p>
               </div>
             </div>
             <div className="w-96 bg-white shadow-xl rounded-md">
               <div className="card-body text-black">
-                <p className="font-bold text-xl">Total Sales</p>
+                <p className="font-bold text-xl text-gray-400">Total Sales</p>
                 <p className="text-3xl">$7100</p>
               </div>
             </div>
             <div className="w-96 bg-white shadow-xl rounded-md">
               <div className="card-body text-black">
-                <p className="font-bold text-xl">Store views</p>
+                <p className="font-bold text-xl text-gray-400">Store views</p>
                 <p className="text-3xl">301</p>
               </div>
             </div>
             <div className="w-96 bg-white shadow-xl rounded-md">
               <div className="card-body text-black">
-                <p className="font-bold text-xl">Product views</p>
+                <p className="font-bold text-xl text-gray-400">Product views</p>
                 <p className="text-3xl">19,121</p>
               </div>
             </div>

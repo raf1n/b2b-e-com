@@ -27,14 +27,14 @@ export const router = createBrowserRouter([
         path: "/managerOrders",
         element: <Orders></Orders>,
       },
+      {
+        path: "/customers",
+        element: <Customers></Customers>,
+      },
+      {
+        path: "/payments",
+        element: <Payments></Payments>,
+      },
     ],
-  },
-  {
-    path: "/customers",
-    element: <Customers></Customers>,
-  },
-  {
-    path: "/payments",
-    element: <Payments></Payments>,
   },
 ]);

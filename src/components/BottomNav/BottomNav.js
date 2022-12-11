@@ -33,16 +33,18 @@ const BottomNav = () => {
         </Link>
       </button>
       <button>
-        <FaGripHorizontal className="w-6"></FaGripHorizontal>
-        <span className="btm-nav-label">Products</span>
+        <Link to="/products">
+          <FaGripHorizontal className="w-14"></FaGripHorizontal>
+          <span className="btm-nav-label">Products</span>
+        </Link>
       </button>
       <button>
-        <BsStack className="w-6"></BsStack>
+        <BsStack className="w-12"></BsStack>
         <span className="btm-nav-label">Manage</span>
       </button>
 
       <button>
-        <AiOutlineUser className="w-6"></AiOutlineUser>
+        <AiOutlineUser className="w-12"></AiOutlineUser>
         <span className="btm-nav-label">Accounts</span>
       </button>
     </div>

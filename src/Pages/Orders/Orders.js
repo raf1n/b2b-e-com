@@ -79,7 +79,7 @@ const Orders = () => {
         ))}
       </div>
       <div>
-        {[1, 2].map((id) => (
+        {[3, 4].map((id) => (
           <div
             key={id}
             className="p-4 mb-5 shadow-md bg-white mt-5 mx-10 border rounded-md"
@@ -104,7 +104,7 @@ const Orders = () => {
               </div>
               <div>
                 <button className=" text-orange-700 font-bold btn-sm bg-orange-300 rounded-sm gap-2">
-                  Not Paid{" "}
+                  COD{" "}
                 </button>
               </div>
             </div>
@@ -122,7 +122,7 @@ const Orders = () => {
         ))}
       </div>
       <div className="pb-20">
-        {[1, 2].map((id) => (
+        {[5, 6].map((id) => (
           <div
             key={id}
             className="p-4 mb-5 shadow-md bg-white mt-5 mx-10 border rounded-md"
@@ -147,7 +147,7 @@ const Orders = () => {
               </div>
               <div>
                 <button className=" text-orange-700 font-bold btn-sm bg-orange-300 rounded-sm gap-2">
-                  Not Paid{" "}
+                  COD{" "}
                 </button>
               </div>
             </div>

@@ -4,6 +4,7 @@ import Customers from "../Pages/Customers/Customers";
 import Home from "../Pages/Home/Home";
 import Orders from "../Pages/Orders/Orders";
 import Payments from "../Pages/Payments/Payments";
+import Products from "../Pages/Products/Products";
 
 export const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ export const router = createBrowserRouter([
       {
         path: "/home",
         element: <Home></Home>,
+      },
+      {
+        path: "/products",
+        element: <Products></Products>,
       },
       {
         path: "/managerOrders",
